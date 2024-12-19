@@ -31,9 +31,9 @@ export default function Login({ navigation }) {
                         <Button style={{width:400, marginVertical:10, paddingHorizontal:10}} buttonColor='#1f618d' onPress={handleLogin} mode="contained-tonal">
                             <Text style={{fontSize:15, color:'#FFF'}}>Login</Text>
                         </Button>
-                        <Button style={{width:400, marginVertical:10, paddingHorizontal:10}} buttonColor='#d4ac0d' onPress={handleLogin} mode="contained-tonal">
+                        {/*<Button style={{width:400, marginVertical:10, paddingHorizontal:10}} buttonColor='#d4ac0d' onPress={handleLogin} mode="contained-tonal">
                             <Text style={{fontSize:15, color:'#FFF'}}>Register</Text>
-                        </Button>
+                        </Button>*/}
                     </View>
                 </View>   
             </View>
